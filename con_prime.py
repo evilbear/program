@@ -1,6 +1,7 @@
 #进制转换和质数判断
 import time
 
+#进制转换加反转
 def num_reverse(n, x):
     b, num = [], 0
     while True:
@@ -15,6 +16,7 @@ def num_reverse(n, x):
         num += i * (x**step)
     return num
 
+#判断质数
 def prime(num):
     if num <= 1:
         return False
